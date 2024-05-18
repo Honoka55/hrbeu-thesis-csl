@@ -5,7 +5,7 @@
     <id>https://github.com/Honoka55/hrbeu-thesis-csl/blob/main/hrbeu.csl</id>
     <link href="https://github.com/Honoka55/hrbeu-thesis-csl/blob/main/hrbeu.csl" rel="self"/>
     <link href="http://www.zotero.org/styles/china-national-standard-gb-t-7714-2015-numeric" rel="template"/>
-    <link href="https://co2.cnki.net/Notice.html?dp=hrbeu&r=1715993747399&noticeId=95&typeId=778" rel="documentation"/>
+    <link href="https://co2.cnki.net/Notice.html?dp=hrbeu&amp;r=1715993747399&amp;noticeId=95&amp;typeId=778" rel="documentation"/>
     <author>
       <name>牛耕田</name>
       <email>buffalo_d@163.com</email>
@@ -233,7 +233,9 @@
   <macro name="secondary-contributors">
     <names variable="translator">
       <name>
-        <name-part name="family" text-case="uppercase"/>
+        <name delimiter=",​">
+          <name-part name="family" text-case="uppercase"/>
+        </name>
       </name>
       <institution/>
       <label form="short" prefix=",​"/>
@@ -243,7 +245,9 @@
   <macro name="container-contributors">
     <names variable="editor">
       <name>
-        <name-part name="family" text-case="uppercase"/>
+        <name delimiter=",​">
+          <name-part name="family" text-case="uppercase"/>
+        </name>
       </name>
       <institution/>
       <substitute>
